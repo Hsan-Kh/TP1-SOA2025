@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="ferme">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="champs">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="champ" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                    <xs:attribute name="surface" type="xs:decimal" use="required"/>
+                                    <xs:attribute name="culture" type="xs:string" use="required"/>
+                                    <xs:attribute name="humidite" type="xs:decimal"/>
+                                    <xs:attribute name="besoinEau" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="cultures">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="culture" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="nom" type="xs:string" use="required"/>
+                                    <xs:attribute name="saison" type="xs:string"/>
+                                    <xs:attribute name="type" type="xs:string"/>
+                                    <xs:attribute name="rendement" type="xs:decimal"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="capteurs">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="capteur" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                    <xs:attribute name="type" type="xs:string"/>
+                                    <xs:attribute name="emplacement" type="xs:string"/>
+                                    <xs:attribute name="etat" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="energies">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="energie" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="type" type="xs:string"/>
+                                    <xs:attribute name="production" type="xs:decimal"/>
+                                    <xs:attribute name="autonomie" type="xs:decimal"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="personnel">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="employe" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="prenom" type="xs:string"/>
+                                    <xs:attribute name="role" type="xs:string"/>
+                                    <xs:attribute name="actif" type="xs:boolean"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="certifications">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="certification" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="nom" type="xs:string"/>
+                                    <xs:attribute name="organisme" type="xs:string"/>
+                                    <xs:attribute name="annee" type="xs:gYear"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+
+            <xs:attribute name="nom" type="xs:string"/>
+            <xs:attribute name="localisation" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ferme nom="SmartFields" localisation="Sfax, Tunisie">
+    <champs>
+        <champ id="C1" surface="7" culture="Oliviers bio" humidite="38" besoinEau="faible"/>
+        <champ id="C2" surface="4" culture="Tomates bio" humidite="58" besoinEau="élevé"/>
+        <champ id="C3" surface="3.5" culture="Blé dur" humidite="42" besoinEau="modéré"/>
+    </champs>
+
+    <cultures>
+        <culture nom="Oliviers bio" saison="été" type="bio" rendement="5.0"/>
+        <culture nom="Tomates bio" saison="printemps" type="bio" rendement="3.5"/>
+        <culture nom="Blé dur" saison="hiver" type="conventionnel" rendement="6.8"/>
+    </cultures>
+
+    <capteurs>
+        <capteur id="S1" type="humidite" emplacement="champ1" etat="actif"/>
+        <capteur id="S2" type="temperature" emplacement="champ2" etat="actif"/>
+        <capteur id="S3" type="ph" emplacement="champ3" etat="inactif"/>
+    </capteurs>
+
+    <energies>
+        <energie type="solaire" production="32.5" autonomie="85"/>
+        <energie type="eolienne" production="8.2" autonomie="15"/>
+    </energies>
+
+    <personnel>
+        <employe prenom="Hatem" role="Agriculteur principal" actif="true"/>
+        <employe prenom="Amina" role="Technicienne capteurs" actif="true"/>
+        <employe prenom="Youssef" role="Responsable énergie" actif="false"/>
+    </personnel>
+
+    <certifications>
+        <certification nom="Label Bio Tunisien" organisme="Ministère de l'Agriculture" annee="2023"/>
+        <certification nom="ISO 14001" organisme="Institut National de Normalisation" annee="2022"/>
+    </certifications>
+</ferme>
