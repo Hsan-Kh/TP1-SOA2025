@@ -109,21 +109,6 @@ Les fichiers XML et XSD sont correctement structurés et validés.
 
 ---
 
-## 📂 Structure du projet
-
-```
-TP1-LSI3/
-├── src/
-│   └── main/
-│       ├── java/
-│       └── resources/
-│           ├── ferme.xml
-│           └── ferme.xsd
-├── pom.xml
-└── README.md
-```
-
----
 
 ## 🚀 Utilisation
 
