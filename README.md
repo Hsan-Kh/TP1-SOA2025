@@ -110,22 +110,6 @@ Les fichiers XML et XSD sont correctement structurés et validés.
 ---
 
 
-## 🚀 Utilisation
-
-### Compilation du projet
-
-```bash
-mvn clean compile
-```
-
-### Exécution du programme
-
-```bash
-mvn exec:java
-```
-
----
-
 ## 📚 Ressources
 
 - Documentation XML : [W3C XML](https://www.w3.org/XML/)
