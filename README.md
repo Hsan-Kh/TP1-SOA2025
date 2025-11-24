@@ -4,7 +4,7 @@
 
 ---
 
-## 👤 Informations sur le projet
+##  Informations sur le projet
 
 | | |
 |---|---|
@@ -16,20 +16,20 @@
 
 ---
 
-## 📋 Description du TP
+##  Description du TP
 
 Ce TP a pour objectif de familiariser l'étudiant avec la **modélisation XML**, la **validation XSD** et l'**interrogation de documents XML avec XPath**.
 
-### 🌾 Contexte du projet
+###  Contexte du projet
 
 Le projet consiste à concevoir un modèle de **ferme durable tunisienne**, incluant :
 
-- 🌱 Des champs et cultures (oliviers, tomates, blé dur)
-- 📡 Des capteurs intelligents (humidité, température, pH)
-- 👥 Du personnel agricole
-- ⚡ Des sources d'énergie renouvelable et certifications
+-  Des champs et cultures (oliviers, tomates, blé dur)
+-  Des capteurs intelligents (humidité, température, pH)
+-  Du personnel agricole
+-  Des sources d'énergie renouvelable et certifications
 
-### 🎯 Objectifs pédagogiques
+###  Objectifs pédagogiques
 
 L'étudiant apprend ainsi à :
 
@@ -39,7 +39,7 @@ L'étudiant apprend ainsi à :
 
 ---
 
-## 💻 Environnement technique
+##  Environnement technique
 
 - **Java JDK** : 1.8
 - **IDE** : IntelliJ IDEA Community Edition
@@ -47,7 +47,7 @@ L'étudiant apprend ainsi à :
 
 ---
 
-## 📝 Déroulement du TP
+##  Déroulement du TP
 
 ### **Étape 1** : Modélisation XML
 
@@ -73,24 +73,24 @@ L'étudiant apprend ainsi à :
 
 ---
 
-## 🛠️ Fonctionnalités clés
+##  Fonctionnalités clés
 
-✅ Validation automatique du fichier XML selon le schéma XSD  
-✅ Extraction d'informations via XPath  
-✅ Utilisation de Maven pour structurer et compiler le projet  
-✅ Code Java modulaire et facilement adaptable
+ Validation automatique du fichier XML selon le schéma XSD  
+ Extraction d'informations via XPath  
+ Utilisation de Maven pour structurer et compiler le projet  
+ Code Java modulaire et facilement adaptable
 
 ---
 
-## 📌 Résultats attendus
+##  Résultats attendus
 
 Le programme affiche un message de validation si le XML respecte le XSD. Les requêtes XPath sont extraites correctement et affichées dans la console :
 
 ```
-✓ Validation du fichier XML :
-  XML valide selon le schéma XSD ✓
+Validation du fichier XML :
+XML valide selon le schéma XSD ✓
 
-📊 Requêtes XPath :
+Requêtes XPath :
 
 Cultures bio :
    - Oliviers bio
@@ -110,7 +110,7 @@ Les fichiers XML et XSD sont correctement structurés et validés.
 ---
 
 
-## 📚 Ressources
+##  Ressources
 
 - Documentation XML : [W3C XML](https://www.w3.org/XML/)
 - Documentation XSD : [W3C XML Schema](https://www.w3.org/XML/Schema)
@@ -119,6 +119,6 @@ Les fichiers XML et XSD sont correctement structurés et validés.
 
 ---
 
-## 📄 Licence
+##  Licence
 
 Ce projet est réalisé dans un cadre pédagogique à la Faculté des Sciences de Sfax.
